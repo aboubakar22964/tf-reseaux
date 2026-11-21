@@ -15,7 +15,7 @@
   addEventListener('scroll', onScroll, { passive: true }); onScroll();
 
   // Form: sent to the Apps Script web app, which emails the PDF
-  const DEVIS_URL = '';
+  const DEVIS_URL = 'https://script.google.com/macros/s/AKfycbxvdryiuyoNSlw0I_Mmck45qbnhI5_wvB-Vb45o3FxJqViD7hJsleucghcroF6ip05D/exec';
   document.getElementById('devisForm').addEventListener('submit', async e => {
     e.preventDefault();
     const f = e.target, msg = document.getElementById('formMsg'), btn = f.querySelector('button[type=submit]');
