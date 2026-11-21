@@ -189,3 +189,11 @@ footer{background:var(--nuit);color:rgba(255,255,255,.7);padding-block:64px 40px
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .form-note{grid-column:1/-1;color:rgba(255,255,255,.72);font-size:14px;max-width:60ch}
 form .btn:disabled{opacity:.6;cursor:wait}
+.legal a,.form-note a{color:inherit}
+.legal-top{background:var(--bleu);padding-top:env(safe-area-inset-top,0px)}
+.legal-page{max-width:760px;padding-block:56px 96px}
+.legal-page h1{font-size:clamp(2rem,5vw,3.2rem);color:var(--bleu);margin-bottom:12px}
+.legal-page h2{font-size:1.2rem;font-stretch:112%;color:var(--bleu);margin:40px 0 10px;padding-top:16px;border-top:1px solid rgba(200,119,58,.45)}
+.legal-page p{margin:0 0 12px;max-width:65ch}
+.legal-page a{color:var(--cuivre-txt)}
+.legal-date{margin-top:48px!important;color:var(--acier);font-size:14px}
