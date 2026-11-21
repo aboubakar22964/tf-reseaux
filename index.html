@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src https://script.google.com https://script.googleusercontent.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="TF RESEAUX : électricité, fibre optique, réseau, vidéosurveillance, alarme, contrôle d'accès et bornes de recharge IRVE.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<title>TF RESEAUX</title>
+<link rel="stylesheet" href="assets/site.css?v=2">
+
+<div id="progress" aria-hidden="true"></div>
+
+<header class="top" id="top">
+  <div class="prep">Site en préparation : photos et informations à venir.</div>
+  <div class="wrap nav">
+    <a class="logo" href="#accueil"><img src="assets/logo-horizontal-blanc.svg" alt="TF RESEAUX, accueil" width="360" height="110"></a>
+    <nav aria-label="Navigation principale"><ul>
+      <li><a href="#metiers">Métiers</a></li>
+      <li><a href="#methode">Méthode</a></li>
+      <li><a href="#references">Références</a></li>
+      <li><a href="#devis">Contact</a></li>
+    </ul></nav>
+    <a class="btn btn-devis" href="#devis">Demander un devis</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <figure class="ph" data-label="Photo : salle de bains, éclairage intégré">
+    <img src="photos/hero.jpg" alt="Salle de bains avec éclairage indirect, spots encastrés et miroir lumineux" data-parallax>
+  </figure>
+  <canvas id="fibre" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <h1 id="heroTitle"><span class="l"><span>Du tableau</span></span> <span class="l"><span>électrique à la</span></span> <span class="l"><span>borne de recharge.</span></span></h1>
+    <div class="hero-sub">
+      <p>Électricité, fibre optique, réseau, vidéosurveillance, alarme, contrôle d'accès et bornes IRVE. Une seule équipe conçoit, pose et met en service vos installations.</p>
+      <div class="hero-cta">
+        <a class="btn btn-devis" href="#devis">Demander un devis
+          <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        <a class="btn btn-ghost" href="#references">Voir nos chantiers</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="manifest">
+  <div class="wrap">
+    <p id="manifest">Un chantier propre se voit à l'ouverture de l'armoire : circuits repérés, chemins de câbles alignés, fibres soudées et mesurées, dossier remis le jour de la réception.</p>
+    <div class="sig"><img class="sig-logo" src="assets/logo-couleur.svg" alt="Logo TF RESEAUX" width="240" height="360">Notre façon de travailler, à chaque intervention.</div>
+  </div>
+</section>
+
+<section class="metiers" id="metiers">
+  <div class="wrap metiers-head">
+    <div>
+      <div class="eyebrow">Nos métiers</div>
+      <h2 class="mt-18">Cinq métiers, une même équipe.</h2>
+    </div>
+    <p>Courants forts et courants faibles sur le même chantier : vous gérez un interlocuteur, un planning et une facture.</p>
+  </div>
+  <div class="track" id="track">
+    <article class="panel">
+      <figure class="ph" data-label="Photo : éclairage extérieur d'un restaurant"><img src="photos/electricite.jpg" alt="Façade d'un restaurant avec son éclairage extérieur"></figure>
+      <div class="panel-txt">
+        <svg class="ico" viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+        <h3>Électricité</h3><span class="rule"></span>
+        <p>Installation neuve, rénovation et mise en conformité, du branchement au dernier point lumineux.</p>
+        <ul><li>Tableaux TGBT et divisionnaires</li><li>Éclairage intérieur et extérieur</li><li>Mise en conformité NF C 15-100</li></ul>
+      </div>
+    </article>
+    <article class="panel">
+      <figure class="ph" data-label="Photo : plateau de bureaux, chemins de câbles"><img src="photos/fibre.jpg" alt="Plateau de bureaux avec dalles LED et chemins de câbles au plafond"></figure>
+      <div class="panel-txt">
+        <svg class="ico" viewBox="0 0 24 24"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
+        <h3>Fibre optique et réseau</h3><span class="rule"></span>
+        <p>Déploiement, raccordement et recette de vos liaisons, de la colonne montante à la prise.</p>
+        <ul><li>Soudure et recette réflectométrique</li><li>Baies de brassage, câblage cuivre cat. 6A</li><li>Wi-Fi et réseau local d'entreprise</li></ul>
+      </div>
+    </article>
+    <article class="panel">
+      <figure class="ph" data-label="Photo : caméra dôme posée en façade, technicien sur nacelle"><img src="photos/video.jpg" alt="Pose d'une caméra de vidéosurveillance en façade"></figure>
+      <div class="panel-txt">
+        <svg class="ico" viewBox="0 0 24 24"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+        <h3>Vidéosurveillance</h3><span class="rule"></span>
+        <p>Caméras IP, enregistrement et accès à distance, dimensionnés selon vos zones à couvrir.</p>
+        <ul><li>Étude de couverture et d'angles</li><li>Enregistreurs et stockage sur site</li><li>Consultation sécurisée à distance</li></ul>
+      </div>
+    </article>
+    <article class="panel">
+      <figure class="ph" data-label="Photo : centrale d'alarme"><img src="photos/acces.jpg" alt="Centrale d'alarme sans fil Ajax posée au mur"></figure>
+      <div class="panel-txt">
+        <svg class="ico" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <h3>Alarme et contrôle d'accès</h3><span class="rule"></span>
+        <p>Détection intrusion, badges, interphonie : vous savez qui entre, où et à quelle heure.</p>
+        <ul><li>Centrales d'alarme et détecteurs</li><li>Badges, claviers, gâches et ventouses</li><li>Interphonie et visiophonie</li></ul>
+      </div>
+    </article>
+    <article class="panel">
+      <figure class="ph" data-label="Photo : bornes de recharge posées en parking, câble branché"><img src="photos/irve.jpg" alt="Bornes de recharge IRVE posées en parking"></figure>
+      <div class="panel-txt">
+        <svg class="ico" viewBox="0 0 24 24"><path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z"/><path d="m2 22 3-3"/><path d="M7.5 13.5 10 11"/><path d="M10.5 16.5 13 14"/><path d="m18 3-4 4h6l-4 4"/></svg>
+        <h3>Bornes de recharge IRVE</h3><span class="rule"></span>
+        <p>Bornes pour particuliers, copropriétés et flottes d'entreprise, avec étude de puissance préalable.</p>
+        <ul><li>Wallbox 7 à 22 kW</li><li>Parkings collectifs et pilotage de charge</li><li>Dossier d'aides ADVENIR</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="band" aria-hidden="true">
+  <div class="band-row" id="band1"><span>Électricité <i>/</i> Fibre <i>/</i> Réseau <i>/</i> Vidéo <i>/</i> Alarme <i>/</i> Accès <i>/</i> IRVE <i>/</i></span><span>Électricité <i>/</i> Fibre <i>/</i> Réseau <i>/</i> Vidéo <i>/</i> Alarme <i>/</i> Accès <i>/</i> IRVE <i>/</i></span></div>
+  <div class="band-row r2" id="band2"><span>Étude, pose, mise en service, maintenance. </span><span>Étude, pose, mise en service, maintenance. </span></div>
+</section>
+
+<section class="methode" id="methode">
+  <div class="wrap">
+    <div class="eyebrow">Méthode</div>
+    <h2>Quatre étapes, du relevé à la mise en service.</h2>
+    <ol class="steps">
+      <li class="step"><span class="rule"></span><span class="k">01</span><h3>Visite technique</h3><p>Un chargé d'affaires se déplace, relève l'existant et mesure les puissances disponibles.</p></li>
+      <li class="step"><span class="rule"></span><span class="k">02</span><h3>Devis détaillé</h3><p>Chiffrage détaillé, poste par poste, avec planning d'intervention et références du matériel.</p></li>
+      <li class="step"><span class="rule"></span><span class="k">03</span><h3>Chantier</h3><p>Équipe dédiée, chantier balisé et point d'avancement régulier.</p></li>
+      <li class="step"><span class="rule"></span><span class="k">04</span><h3>Mise en service</h3><p>Essais, recette, formation de vos équipes et remise du dossier des ouvrages exécutés.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="refs" id="references">
+  <div class="wrap">
+    <div class="refs-head">
+      <div><div class="eyebrow">Références</div><h2>Nos chantiers.</h2></div>
+      <p>Les références seront ajoutées avec les photos des chantiers.</p>
+    </div>
+    <div class="grid">
+      <figure class="ref ref-a"><div class="ph" data-label="Photo : éclairage intérieur d'un restaurant"><img src="photos/ref-1.jpg" alt="Salle d'un restaurant éclairée par des spots sur rail"></div>
+        <figcaption><b>Restaurant</b><span>Changement de l'éclairage intérieur</span></figcaption></figure>
+      <figure class="ref ref-b"><div class="ph" data-label="Photo : pose d'un visiophone"><img src="photos/ref-2.jpg" alt="Technicien TF RESEAUX posant un visiophone mural dans une villa"></div>
+        <figcaption><b>Pose d'un visiophone</b></figcaption></figure>
+      <figure class="ref ref-c"><div class="ph" data-label="Photo : éclairage intérieur d'un restaurant"><img src="photos/ref-3.jpg" alt="Applique murale au-dessus d'une rangée de bouteilles dans un restaurant"></div>
+        <figcaption><b>Restaurant</b><span>Changement de l'éclairage intérieur</span></figcaption></figure>
+      <figure class="ref ref-d"><div class="ph" data-label="Photo : rénovation en cours"><img src="photos/ref-4.jpg" alt="Rénovation en cours : câbles en attente et ossature des cloisons"></div>
+        <figcaption><b>Rénovation en cours</b><span>Passage des câbles avant la pose des cloisons</span></figcaption></figure>
+      <figure class="ref ref-e"><div class="ph" data-label="Photo : tableau électrique avant travaux"><img src="photos/tableau-avant.jpg" alt="Ancien tableau électrique à fusibles avant remplacement"></div>
+        <figcaption><b>Avant</b><span>Ancien tableau à fusibles</span></figcaption></figure>
+      <figure class="ref ref-f"><div class="ph" data-label="Photo : tableau électrique après travaux"><img src="photos/tableau-apres.jpg" alt="Tableau électrique neuf avec interrupteurs différentiels 30 mA et disjoncteurs"></div>
+        <figcaption><b>Après</b><span>Tableau neuf, protections différentielles 30 mA</span></figcaption></figure>
+    </div>
+    </div>
+</section>
+
+<section class="devis" id="devis">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Devis</div>
+      <h2>Parlez-nous de votre chantier.</h2>
+      <p class="lead">Décrivez votre besoin en quelques lignes. Un chargé d'affaires vous recontacte pour fixer une visite.</p>
+      <p class="contact">Coordonnées à venir.</p>
+    </div>
+    <form id="devisForm" novalidate>
+      <div class="hp" aria-hidden="true"><label for="site">Ne pas remplir</label><input id="site" name="site" tabindex="-1" autocomplete="off"></div>
+      <div class="f"><label for="nom">Nom et société</label><input id="nom" name="nom" autocomplete="name" required></div>
+      <div class="f"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" required></div>
+      <div class="f"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="f"><label for="commune">Commune du chantier</label><input id="commune" name="commune" autocomplete="address-level2"></div>
+      <div class="f full"><label for="presta">Prestation</label>
+        <select id="presta" name="presta">
+          <option>Électricité</option><option>Fibre optique et réseau</option><option>Vidéosurveillance</option>
+          <option>Alarme et contrôle d'accès</option><option>Borne de recharge IRVE</option><option>Plusieurs prestations</option>
+        </select></div>
+      <div class="f full"><label for="msg">Votre projet</label><textarea id="msg" name="msg" placeholder="Surface, nombre de points, délai souhaité…"></textarea></div>
+      <button class="btn btn-devis" type="submit">Envoyer ma demande
+        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+      <p id="formMsg" role="status"></p>
+      <p class="form-note">Vos informations servent uniquement à traiter votre demande de devis et sont transmises à TF RESEAUX par email.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="logo logo-stack" href="#accueil"><img src="assets/logo-blanc.svg" alt="TF RESEAUX, accueil" width="240" height="360"></a>
+        <p class="foot-txt">Électricité, fibre optique, réseau, sûreté et bornes de recharge pour les professionnels et les particuliers.</p>
+      </div>
+      <div><h4>Métiers</h4><ul><li><a href="#metiers">Électricité</a></li><li><a href="#metiers">Fibre et réseau</a></li><li><a href="#metiers">Vidéosurveillance</a></li><li><a href="#metiers">Alarme et accès</a></li><li><a href="#metiers">Bornes IRVE</a></li></ul></div>
+      <div><h4>Entreprise</h4><ul><li><a href="#methode">Méthode</a></li><li><a href="#references">Références</a></li><li><a href="#devis">Devis</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li>Coordonnées à venir</li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 TF RESEAUX</span><span>Mentions légales et politique de confidentialité à venir</span></div>
+  </div>
+</footer>
+
+<script src="assets/gsap.min.js"></script>
+<script src="assets/ScrollTrigger.min.js"></script>
+<script src="assets/three.min.js"></script>
+<script src="assets/site.js?v=2"></script>
