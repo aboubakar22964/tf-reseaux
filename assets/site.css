@@ -195,5 +195,13 @@ form .btn:disabled{opacity:.6;cursor:wait}
 .legal-page h1{font-size:clamp(2rem,5vw,3.2rem);color:var(--bleu);margin-bottom:12px}
 .legal-page h2{font-size:1.2rem;font-stretch:112%;color:var(--bleu);margin:40px 0 10px;padding-top:16px;border-top:1px solid rgba(200,119,58,.45)}
 .legal-page p{margin:0 0 12px;max-width:65ch}
-.legal-page a{color:var(--cuivre-txt)}
+.legal-page a:not(.btn){color:var(--cuivre-txt)}
 .legal-date{margin-top:48px!important;color:var(--acier);font-size:14px}
+.hero-sub{grid-template-areas:"txt cta" "rate rate"}
+.hero-sub>p{grid-area:txt}.hero-cta{grid-area:cta}
+.rating{grid-area:rate;justify-self:start;display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,.88);font-size:15px;text-decoration:none;border-bottom:1px solid transparent}
+.rating:hover{border-bottom-color:rgba(255,255,255,.5)}
+.rating .stars{color:var(--jaune);letter-spacing:2px}
+.rating b{color:var(--blanc)}
+@media (max-width:800px){.hero-sub{grid-template-areas:"txt" "cta" "rate"}}
+.notfound{min-height:60vh;display:grid;align-content:center;gap:20px}

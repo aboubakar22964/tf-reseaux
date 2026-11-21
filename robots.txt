@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aboubakar22964.github.io/tf-reseaux/sitemap.xml
